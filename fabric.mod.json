@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "pvp-system",
+  "version": "${version}",
+  "name": "PvP System",
+  "description": "30-second PvP tagging, gentle 50% aim assistance, combat logging punishment, and /bed recall.",
+  "authors": [
+    "Soul SMP"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/pvp-system/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.savager_4.PvPSystem"
+    ],
+    "client": [
+      "com.savager_4.client.PvPSystemClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
